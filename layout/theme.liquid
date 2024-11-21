@@ -1,0 +1,13 @@
+<html>
+    <head>
+          {{ content_for_header }}
+          {{ 'style.css' | asset_url | stylesheet_tag}}
+        <body>
+            {% render 'header' %}
+            {{ content_for_layout }}
+            <script src="{{ 'script.js' | asset_url }}" defer></script>
+        </body>
+    </head>
+</html>
+
+
