@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "initial"
+      "type": "cart"
     }
   },
   "order": ["main"]
